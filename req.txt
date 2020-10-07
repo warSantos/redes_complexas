@@ -1,0 +1,2 @@
+python-dev
+libcairo2-dev
