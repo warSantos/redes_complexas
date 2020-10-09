@@ -10,7 +10,7 @@ Dependências resolvidas com o pip estão contidas no arquivo pip-r.txt
 Dependências resolvidas com o apt (Debian, Ubuntu e Linux Mint, etc...) estão
 contidas no arquivo req.txt
 
-###### As dependências devem ser instaladas para o funcionamento do algoritmo.
+##### As dependências devem ser instaladas para o funcionamento do algoritmo.
 
 #### instalação dos pacotes pip via virtualenv
 
