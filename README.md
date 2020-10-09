@@ -17,12 +17,19 @@ contidas no arquivo req.txt
 A instalação do pacote python3-venv
 
 Criando ambiente virtual
+
 $ python3 -m venv env
+
 Ativando ambiente virtual
+
 $ source env/bin/activate
+
 Instalando o pacote wheel (para instalação dos demais pacotes com extensão .whl)
+
 $ python -U wheel
+
 Instalando as dependências do pip
+
 $ python -Ur -install pip-r.txt
 
 ### Execução
