@@ -12,7 +12,7 @@ contidas no arquivo req.txt
 
 ##### As dependências devem ser instaladas para o funcionamento do algoritmo.
 
-#### instalação dos pacotes pip via virtualenv
+### instalação dos pacotes pip via virtualenv
 
 A instalação do pacote python3-venv
 
