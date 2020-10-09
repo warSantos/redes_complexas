@@ -14,7 +14,7 @@ contidas no arquivo req.txt
 
 ### instalação dos pacotes pip via virtualenv
 
-A instalação do pacote python3-venv
+#### A instalação do pacote python3-venv pode ser necessária caso ainda não esteja intalado.
 
 Criando ambiente virtual
 
