@@ -33,7 +33,7 @@ if __name__=='__main__':
     # Calculando o grau de cada vértice.
     cont = 0
     for i in g.grafo.degree():
-        g.grafo.vs[cont]["size"] = 10+i
+        g.grafo.vs[cont]["size"] = 5+i
         cont += 1
     # Layouts testados para melhorar o plot.
     #layout = g.grafo.layout_reingold_tilford()
@@ -42,7 +42,7 @@ if __name__=='__main__':
     layout = g.grafo.layout_kamada_kawai()
     #"""
     try:
-        igraph.plot(g.grafo,"rede.pdf", layout=layout, bbox = (2500, 2500))
+        igraph.plot(g.grafo,"plots/rede.pdf", layout=layout, bbox = (2500, 2500))
     except:
         igraph.plot(g.grafo, layout=layout).save("grafo.png")
     #"""
