@@ -33,7 +33,7 @@ if __name__=='__main__':
     # Calculando o grau de cada vértice.
     cont = 0
     for i in g.grafo.degree():
-        g.grafo.vs[cont]["size"] = 5+i
+        g.grafo.vs[cont]["size"] = 7+i*1.5
         cont += 1
     # Layouts testados para melhorar o plot.
     #layout = g.grafo.layout_reingold_tilford()
